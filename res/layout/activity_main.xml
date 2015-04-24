@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+    <com.xudafeng.slidingmenu.SlidingMenu
+        android:id="@+id/id_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+            <include layout="@layout/layout_menu" />
+            <LinearLayout
+                android:id="@+id/id_main"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+                <include layout="@layout/layout_title" />
+                <WebView
+                    android:id="@+id/webview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbarSize="0dip" />
+                <include layout="@layout/layout_second" />
+                <include layout="@layout/layout_third" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.xudafeng.slidingmenu.SlidingMenu>
+</FrameLayout>

@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_third"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:background="#fff" >
+    <TextView
+        android:id="@+id/content_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:shadowColor="#eee"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="content third"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
