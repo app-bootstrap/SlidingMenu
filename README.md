@@ -1,5 +1,4 @@
-SlideMenu
-=========
+# SlideMenu
 
 An easy slidable menu for android.
 
